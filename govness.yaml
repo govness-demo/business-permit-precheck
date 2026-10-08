@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "ke-digital-public-services.business-permit-precheck"
+name: "Business permit pre-check"
+type: "workflow"
+version: "1.4.0"
+summary: "Checks a business permit application for missing documents and eligibility before it is filed."
+description: "An encoded version of the business permit checklist. An agent walks the applicant through each requirement, flags missing documents and explains the fee schedule before anything is submitted."
+publisher:
+  environment: "ke-digital-public-services"
+  body: "Directorate of Digital Public Services"
+languages: ["en", "sw"]
+license: "Apache-2.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/business-permit-precheck"
+domains: ["business-and-trade", "public-administration"]
